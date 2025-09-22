@@ -1,0 +1,84 @@
+[{
+  "protocol": "hyperlend",
+  "chainId": "999",
+  "fnName": "approve(address,uint256)",
+  "actionTargetSelector": "0x095ea7b3",
+  "actionTarget": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+  "actionPolicies": [
+    {
+      "policy": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "address": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "initData": "0x"
+    }
+  ]
+},
+{
+  "protocol": "hyperlend",
+  "chainId": "999",
+  "fnName": "supply(address,uint256,address,uint16)",
+  "actionTargetSelector": "0x617ba037",
+  "actionTarget": "0x00A89d7a5A02160f20150EbEA7a2b5E4879A1A8b",
+  "actionPolicies": [
+    {
+      "policy": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "address": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "initData": "0x"
+    }
+  ]
+},
+{
+  "protocol": "hyperlend",
+  "chainId": "999",
+  "fnName": "withdraw(address,uint256,address)",
+  "actionTargetSelector": "0x69328dec",
+  "actionTarget": "0x00A89d7a5A02160f20150EbEA7a2b5E4879A1A8b",
+  "actionPolicies": [
+    {
+      "policy": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "address": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "initData": "0x"
+    }
+  ]
+},
+{
+  "protocol": "hypurrfi",
+  "chainId": "999",
+  "fnName": "approve(address,uint256)",
+  "actionTargetSelector": "0x095ea7b3",
+  "actionTarget": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+  "actionPolicies": [
+    {
+      "policy": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "address": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "initData": "0x"
+    }
+  ]
+},
+{
+  "protocol": "hypurrfi",
+  "chainId": "999",
+  "fnName": "supply(address,uint256,address,uint16)",
+  "actionTargetSelector": "0x617ba037",
+  "actionTarget": "0xceCcE0EB9DD2Ef7996e01e25DD70e461F918A14b",
+  "actionPolicies": [
+    {
+      "policy": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "address": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "initData": "0x"
+    }
+  ]
+},
+{
+  "protocol": "hypurrfi",
+  "chainId": "999",
+  "fnName": "withdraw(address,uint256,address)",
+  "actionTargetSelector": "0x69328dec",
+  "actionTarget": "0xceCcE0EB9DD2Ef7996e01e25DD70e461F918A14b",
+  "actionPolicies": [
+    {
+      "policy": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "address": "0x0000000000FEEc8D74e3143fBaBbca515358d869",
+      "initData": "0x"
+    }
+  ]
+}]
