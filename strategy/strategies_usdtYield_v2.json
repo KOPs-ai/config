@@ -1,0 +1,362 @@
+[
+    {
+        "protocol": "hypurrfi",
+        "chainId": "999",
+        "fnName": "approve(address,uint256)",
+        "actionTargetSelector": "0x095ea7b3",
+        "actionTarget": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+        "policyType": "universal",
+        "paramRules": [
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xcecce0eb9dd2ef7996e01e25dd70e461f918a14b",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 4,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                }
+            ]
+        ]
+    },
+    {
+        "protocol": "hypurrfi",
+        "chainId": "999",
+        "fnName": "supply(address,uint256,address,uint16)",
+        "actionTargetSelector": "0x617ba037",
+        "actionTarget": "0xcecce0eb9dd2ef7996e01e25dd70e461f918a14b",
+        "policyType": "universal",
+        "paramRules": [
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "userAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ],
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "orchestratorAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ]
+        ]
+    },
+    {
+        "protocol": "hypurrfi",
+        "chainId": "999",
+        "fnName": "withdraw(address,uint256,address)",
+        "actionTargetSelector": "0x69328dec",
+        "actionTarget": "0xcecce0eb9dd2ef7996e01e25dd70e461f918a14b",
+        "policyType": "universal",
+        "paramRules": [
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "userAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ],
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "orchestratorAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ]
+        ]
+    },
+    {
+        "protocol": "hyperlend",
+        "chainId": "999",
+        "fnName": "approve(address,uint256)",
+        "actionTargetSelector": "0x095ea7b3",
+        "actionTarget": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+        "policyType": "universal",
+        "paramRules": [
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0x00a89d7a5a02160f20150ebea7a2b5e4879a1a8b",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 4,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                }
+            ]
+        ]
+    },
+    {
+        "protocol": "hyperlend",
+        "chainId": "999",
+        "fnName": "supply(address,uint256,address,uint16)",
+        "actionTargetSelector": "0x617ba037",
+        "actionTarget": "0x00a89d7a5a02160f20150ebea7a2b5e4879a1a8b",
+        "policyType": "universal",
+        "paramRules": [
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "userAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ],
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "orchestratorAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ]
+        ]
+    },
+    {
+        "protocol": "hyperlend",
+        "chainId": "999",
+        "fnName": "withdraw(address,uint256,address)",
+        "actionTargetSelector": "0x69328dec",
+        "actionTarget": "0x00A89d7a5A02160f20150EbEA7a2b5E4879A1A8b",
+        "policyType": "universal",
+        "paramRules": [
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "userAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ],
+            [
+                {
+                    "condition": 0,
+                    "offset": 0,
+                    "isLimited": false,
+                    "ref": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+                    "usage": {
+                        "limit": 0,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 2,
+                    "offset": 32,
+                    "isLimited": false,
+                    "ref": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                },
+                {
+                    "condition": 0,
+                    "offset": 64,
+                    "isLimited": false,
+                    "ref": "orchestratorAddress",
+                    "usage": {
+                        "limit": 10,
+                        "used": 0
+                    }
+                }
+            ]
+        ]
+    }
+]
