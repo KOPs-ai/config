@@ -11,6 +11,7 @@ This file contains the legacy configuration format for USDT yield strategies. It
 ### `strategy/strategies_usdtYield_v2.json` (Current Format)
 
 This file contains the updated configuration format with enhanced parameter validation and rule-based access control.
+For current format, each user will have his own policy that only applies to him.
 
 ## Configuration Structure
 
